@@ -11,4 +11,3 @@ sudo apt install -y ufw clamav deborphan
 echo "Instalação concluída. Você pode rodar os módulos em 'modules/'."
 
 exit 0
-

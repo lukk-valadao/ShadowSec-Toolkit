@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # ShadowSec Toolkit
 
 **Descrição:**
-ShadowSec Toolkit é uma suíte modular de ferramentas de cibersegurança focada em auditoria, limpeza, atualização e reforço da segurança em sistemas Linux baseados em Debian.
+=======
+# shadowsec-toolkit
+A modular cybersecurity toolkit for system audit, cleaning, and protection.
+# ShadowSec Toolkit
+
+**Descrição:**  
+
 
 ---
 
@@ -25,8 +32,15 @@ ShadowSec Toolkit é uma suíte modular de ferramentas de cibersegurança focada
 
 ## Como usar
 
+<<<<<<< HEAD
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu_usuario/shadowsec-toolkit.git
 cd shadowsec-toolkit
 
+=======
+1. Clone o repositório:  
+```bash
+git clone https://github.com/seu_usuario/shadowsec-toolkit.git
+cd shadowsec-toolkit
+>>>>>>> 1b481d0c659a15944f78d4980a95ac9fb1dbf74b
