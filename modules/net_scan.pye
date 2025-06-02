@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+
+import nmap
+import socket
+
+def banner():
+    print("=" * 50)
+    print("🔎 ShadowSec Toolkit - Módulo: net_scan.py")
+    print("➡️  Escaneamento básico da rede local")
+    print("=" * 50)
+
+def get_local_ip():
+    """Tenta identificar o IP local da máquina para estimar a rede."""
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.connect(('8.8.8.8', 1))
+        IP = s.getsockname()[0]
+    except Exception:
+        IP = '127.0.0.1'
+    finally:
+        s.close()
+    return IP
+
+def scan_rede(ip_base):
+    scanner = nmap.PortScanner()
+    print(f"🔍 Escaneando rede {ip_base}...")
+    try:
+        scanner.scan(hosts=ip_base, arguments='-sn')
+        for host in scanner.all_hosts():
+            print(f"[+] Host ativo: {host}")
+    except Exception as e:
+        print(f"Erro ao escanear: {e}")
+
+if __name__ == "__main__":
+    banner()
+    local_ip = get_local_ip()
+    ip_rede = local_ip.rsplit('.', 1)[0] + '.0/24'  # Ex: 192.168.1.0/24
+    scan_rede(ip_rede)
+
