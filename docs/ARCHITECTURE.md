@@ -66,6 +66,7 @@ shadowsec-toolkit/
 
 ## 4. Componentes e Interações
 
+```
 +---------------------+
 | system_checkup.sh | <---> Módulos Python (net_scan, etc.)
 +---------+-----------+
@@ -79,6 +80,7 @@ v
 | user-installed- |
 | cleaner.sh |
 +---------------------+
+```
 
 ---
 
