@@ -20,7 +20,7 @@
 ## 📁 Estrutura do Projeto
 
 shadowsec-toolkit/
-├── docs/
+```├── docs/
 │ ├── Security Target (Common Criteria)(docs/SECURITY_TARGET.md)
 │ ├── Modelo de Ameaças(docs/THREAT_MODEL.md)
 │ ├── Arquitetura do Toolkit(docs/ARCHITECTURE.md)
@@ -52,7 +52,7 @@ shadowsec-toolkit/
 │ └── init.py
 ├── venv/ # Ambiente virtual (normalmente ignorado pelo git)
 ├── .gitignore
-├── README.md
+├── README.md```
 
 ---
 
