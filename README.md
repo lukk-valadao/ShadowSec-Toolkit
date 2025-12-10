@@ -1,36 +1,79 @@
-🛡️ ShadowSec Toolkit
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+
+
+
+# 🛡️ ShadowSec Toolkit
+
+
 
 Suíte Modular de Cibersegurança para Hardening, Auditoria e Monitoramento Local
 
-Autor: Luciano Valadão (Lukk)
-Projeto: ShadowSec Offensive & Defensive Tools
+**Autor:** Luciano Valadão (Lukk)
 
-📌 Sobre o Projeto
+**Projeto:** ShadowSec Offensive & Defensive Tools
+
+
+
+---
+
+
+
+## 📌 Sobre o Projeto
+
+
 
 O ShadowSec Toolkit é uma suíte modular destinada à auditoria, hardening, varreduras de segurança e automações de manutenção, projetado para profissionais de TI, analistas de cibersegurança e administradores de sistemas.
 
-O toolkit foca em:
 
-✔️ Automação de tarefas críticas de segurança
-✔️ Modularidade extrema para expansão contínua
-✔️ Scripts Bash e Python integrados
-✔️ Documentação clara e arquitetura padronizada
-✔️ Operação offline, visando ambientes restritos
-✔️ Uso seguro em ambientes corporativos ou pessoais
 
-🎯 Objetivos Principais
+**Principais focos:**
 
-Padronizar rotinas de auditoria e manutenção.
+- Automação de tarefas críticas de segurança
 
-Automatizar verificações essenciais de segurança.
+- Modularidade extrema para expansão contínua
 
-Ajudar equipes pequenas ou profissionais autônomos.
+- Scripts Bash e Python integrados
 
-Oferecer uma base extensível para futuras ferramentas ShadowSec.
+- Documentação clara e arquitetura padronizada
 
-Facilitar a adoção de boas práticas de hardening e monitoramento.
+- Operação offline, visando ambientes restritos
 
-📂 Estrutura Completa do Projeto
+- Uso seguro em ambientes corporativos ou pessoais
+
+
+
+---
+
+
+
+## 🎯 Objetivos Principais
+
+
+
+- Padronizar rotinas de auditoria e manutenção
+
+- Automatizar verificações essenciais de segurança
+
+- Ajudar equipes pequenas ou profissionais autônomos
+
+- Oferecer uma base extensível para futuras ferramentas ShadowSec
+
+- Facilitar a adoção de boas práticas de hardening e monitoramento
+
+
+
+---
+
+
+
+## 📂 Estrutura do Projeto
+
+
+```
 ShadowSec-Toolkit/
 ├── README.md
 ├── __init__.py
@@ -39,7 +82,19 @@ ShadowSec-Toolkit/
 ├── data_signatures/
 │   ├── backdoorports.dat
 │   ├── suspect_hashes.txt
-│   ├── RKH_*.ldb   (assinaturas para rootkits)
+│   ├── RKH_Glubteba.ldb
+│   ├── RKH_dso.ldb
+│   ├── RKH_jynx.ldb
+│   ├── RKH_kbeast.ldb
+│   ├── RKH_libkeyutils.ldb
+│   ├── RKH_libkeyutils1.ldb
+│   ├── RKH_libncom.ldb
+│   ├── RKH_pamunixtrojan.ldb
+│   ├── RKH_shv.ldb
+│   ├── RKH_sniffer.ldb
+│   ├── RKH_sshd.ldb
+│   ├── RKH_turtle.ldb
+│   └── RKH_xsyslog.ldb
 │
 ├── docs/
 │   ├── ARCHITECTURE.md
@@ -48,7 +103,9 @@ ShadowSec-Toolkit/
 │   └── modules/
 │
 ├── modules/
+│   ├── __init__.py
 │   ├── menu.py
+│   │
 │   ├── bloqueio_check/
 │   ├── dork_scanner/
 │   ├── firewall_config/
@@ -60,7 +117,8 @@ ShadowSec-Toolkit/
 │   ├── rootKit_hunter/
 │   ├── shadowsec_auditor/
 │   ├── shadowsec_maldet/
-│   └── syscheckup/
+│   ├── syscheckup/
+│   └── venv/
 │
 ├── scripts/
 │   ├── anti-himbernate/
@@ -76,120 +134,234 @@ ShadowSec-Toolkit/
 │   └── __init__.py
 │
 └── utils/
+    ├── __init__.py
     ├── utils.py
     └── __pycache__/
 
-⚙️ Instalação
-1️⃣ Clone o repositório:
+```
+
+---
+
+## ⚙️ Instalação
+
+
+
+1️ Clone o repositório:
+
+```bash
+
 git clone https://github.com/lukk-valadao/shadowsec-toolkit.git
+
 cd shadowsec-toolkit
 
-2️⃣ Crie e ative o ambiente virtual:
+2️ Crie e ative o ambiente virtual:
+
+
+
+bash
+
+Copiar código
+
 python3 -m venv venv
+
 source venv/bin/activate
 
-3️⃣ Instale as dependências necessárias (se houver):
+3️ Instale dependências (se houver):
+
+
+
+bash
+
+Copiar código
+
 pip install -r requirements.txt
 
 🚀 Uso Básico
 
-O toolkit pode ser executado de forma modular ou usando o menu principal.
-
 Executar o menu interativo:
+
+
+
+bash
+
+Copiar código
+
 python3 modules/menu.py
 
 Executar um módulo individual:
+
+
+
+bash
+
+Copiar código
+
 python3 modules/net_scan/net_scan.py
+
 python3 modules/shadowsec_maldet/smd.py
+
 python3 modules/firewall_config/firewall_configurator.py
 
 Scripts Bash:
+
+
+
+bash
+
+Copiar código
+
 bash scripts/system_checkup.sh
+
 bash scripts/harden_ufw.sh
 
 🔎 Principais Funcionalidades
-🔥 Módulos Python
 
-Net Scan — mapeamento básico de rede (Nmap wrapper)
+Módulos Python
 
-Maldet — análise local usando ClamAV + assinaturas extras
+Net Scan: mapeamento básico de rede (Nmap wrapper)
 
-RootKit Hunter — assinaturas dedicadas + detecção estendida
 
-Firewall Configurator — automação UFW/Iptables
 
-Permission Audit — auditoria de permissões suspeitas
+Maldet: análise local usando ClamAV + assinaturas extras
 
-Idle Suspend Check — verificação e hardening de suspensão automática
 
-Dork Scanner — buscas automatizadas com dorks personalizadas
 
-ShadowSec Auditor — checklist automatizado de segurança do sistema
+RootKit Hunter: assinaturas dedicadas + detecção estendida
 
-🛠 Scripts Bash
+
+
+Firewall Configurator: automação UFW/Iptables
+
+
+
+Permission Audit: auditoria de permissões suspeitas
+
+
+
+Idle Suspend Check: verificação e hardening de suspensão automática
+
+
+
+Dork Scanner: buscas automatizadas com dorks personalizadas
+
+
+
+ShadowSec Auditor: checklist automatizado de segurança do sistema
+
+
+
+Scripts Bash
 
 Hardening UFW
 
+
+
 System Checkup completo
+
+
 
 Scripts de instalação e manutenção
 
+
+
 Anti-hibernação e ajustes de energia
+
+
 
 📚 Documentação
 
-Toda documentação estrutural se encontra em:
-
 ARCHITECTURE.md — arquitetura geral do toolkit
+
+
 
 SECURITY_TARGET.md — objetivo de segurança e escopo
 
-THREAT_MODEL.md — modelo de ameaças e riscos avaliados
+
+
+THREAT_MODEL.md — modelo de ameaças e riscos
+
+
 
 docs/modules/ — documentação específica de cada módulo
 
-🔐 Segurança e Boas Práticas
 
-O projeto segue princípios:
+
+🔐 Segurança e Boas Práticas
 
 Execução mínima como root
 
+
+
 Logs independentes
+
+
 
 Assinaturas separadas em data_signatures/
 
+
+
 Suporte a ambientes offline
+
+
 
 Configurações revertíveis com backups automáticos
 
+
+
 🧭 Futuramente
 
- Módulo de varredura via OpenVAS/Greenbone
+Módulo de varredura via OpenVAS/Greenbone
 
- Relatórios HTML automáticos
 
- Integração com APIs de CVE (NVD / Vulners)
 
- Versão GUI (Tkinter/Qt)
+Relatórios HTML automáticos
 
- Sistema completo de logs unificado
 
- ShadowSec Cloud Scanner (fase de pesquisa)
+
+Integração com APIs de CVE (NVD / Vulners)
+
+
+
+Versão GUI (Tkinter/Qt)
+
+
+
+Sistema completo de logs unificado
+
+
+
+ShadowSec Cloud Scanner (fase de pesquisa)
+
+
 
 🤝 Contribuindo
 
-Contribuições são bem-vindas!
-
 Faça um Fork
+
+
 
 Crie uma branch
 
+
+
 Envie um Pull Request
+
+
 
 Descreva claramente a mudança
 
+
+
 📜 Licença
 
+
 Distribuído sob licença MIT.
+
+
 Você pode usar, modificar e distribuir livremente mantendo os créditos.
-Contato: lukk.valadao@gmail.com
+
+
+Contato: Luciano Valadão - lukk.valadao@gmail.com
+
+---
+
