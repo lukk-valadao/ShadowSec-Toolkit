@@ -80,21 +80,6 @@ ShadowSec-Toolkit/
 ├── venv/
 │
 ├── data_signatures/
-│   ├── backdoorports.dat
-│   ├── suspect_hashes.txt
-│   ├── RKH_Glubteba.ldb
-│   ├── RKH_dso.ldb
-│   ├── RKH_jynx.ldb
-│   ├── RKH_kbeast.ldb
-│   ├── RKH_libkeyutils.ldb
-│   ├── RKH_libkeyutils1.ldb
-│   ├── RKH_libncom.ldb
-│   ├── RKH_pamunixtrojan.ldb
-│   ├── RKH_shv.ldb
-│   ├── RKH_sniffer.ldb
-│   ├── RKH_sshd.ldb
-│   ├── RKH_turtle.ldb
-│   └── RKH_xsyslog.ldb
 │
 ├── docs/
 │   ├── ARCHITECTURE.md
@@ -148,76 +133,73 @@ ShadowSec-Toolkit/
 
 1️ Clone o repositório:
 
-```bash
-
+bash
+```
 git clone https://github.com/lukk-valadao/shadowsec-toolkit.git
 
 cd shadowsec-toolkit
+```
 
 2️ Crie e ative o ambiente virtual:
 
-
-
 bash
 
 Copiar código
-
+```
 python3 -m venv venv
 
 source venv/bin/activate
+```
 
 3️ Instale dependências (se houver):
-
-
 
 bash
 
 Copiar código
-
+```
 pip install -r requirements.txt
+```
 
 🚀 Uso Básico
 
 Executar o menu interativo:
 
-
-
 bash
 
 Copiar código
-
+```
 python3 modules/menu.py
+```
 
 Executar um módulo individual:
 
-
-
 bash
 
 Copiar código
-
+```
 python3 modules/net_scan/net_scan.py
 
 python3 modules/shadowsec_maldet/smd.py
 
 python3 modules/firewall_config/firewall_configurator.py
+```
 
 Scripts Bash:
-
 
 
 bash
 
 Copiar código
-
+```
 bash scripts/system_checkup.sh
 
 bash scripts/harden_ufw.sh
+```
 
 🔎 Principais Funcionalidades
 
 Módulos Python
-
+```
 Net Scan: mapeamento básico de rede (Nmap wrapper)
 
 
@@ -247,11 +229,11 @@ Dork Scanner: buscas automatizadas com dorks personalizadas
 
 
 ShadowSec Auditor: checklist automatizado de segurança do sistema
-
+```
 
 
 Scripts Bash
-
+```
 Hardening UFW
 
 
@@ -265,11 +247,11 @@ Scripts de instalação e manutenção
 
 
 Anti-hibernação e ajustes de energia
-
+```
 
 
 📚 Documentação
-
+```
 ARCHITECTURE.md — arquitetura geral do toolkit
 
 
@@ -283,7 +265,7 @@ THREAT_MODEL.md — modelo de ameaças e riscos
 
 
 docs/modules/ — documentação específica de cada módulo
-
+```
 
 
 🔐 Segurança e Boas Práticas
@@ -360,8 +342,8 @@ Distribuído sob licença MIT.
 
 Você pode usar, modificar e distribuir livremente mantendo os créditos.
 
-
+```
 Contato: Luciano Valadão - lukk.valadao@gmail.com
-
+```
 ---
 
