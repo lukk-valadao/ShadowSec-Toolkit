@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # bloqueio_check.py
 # ShadowSec Toolkit - Módulo para checar e ajustar bloqueio automático de tela (GNOME)
-# Autor: Shadows + Aeris Satana 🦇
+# Autor: Luciano Valadão
 
 import subprocess
 import sys

@@ -1,0 +1,54 @@
+{
+    "arquivos": {
+        "site:noircode.com.br filetype:pdf": [],
+        "site:noircode.com.br filetype:doc": [],
+        "site:noircode.com.br filetype:xls": [],
+        "site:noircode.com.br filetype:ppt": [],
+        "site:noircode.com.br filetype:csv": [],
+        "site:noircode.com.br filetype:txt": []
+    },
+    "administrativo": {
+        "site:noircode.com.br inurl:login": [],
+        "site:noircode.com.br inurl:admin": [],
+        "site:noircode.com.br inurl:portal": [],
+        "site:noircode.com.br intitle:\"index of\"": [],
+        "site:noircode.com.br intitle:\"private\"": [],
+        "site:noircode.com.br \"sql error\"": []
+    },
+    "exposicao": {
+        "\"noir code\" confidential": [
+            "https://www.beambitx.co/blog/noir-dapps-the-privacy-key/",
+            "https://blog.openzeppelin.com/oxorio-samm-module-audit-1",
+            "https://x.com/aztecnetwork?lang=en",
+            "https://www.linkedin.com/posts/duclair-fopa_noir-zeroknowledgeproofs-privacytech-activity-7321065384059564032-gXSA",
+            "https://twitter.com/aztecnetwork/with_replies",
+            "https://eprint.iacr.org/2025/572.pdf",
+            "https://medium.com/distributed-lab/noir-under-the-hood-from-code-to-constraints-b3af7a54f00c",
+            "https://weirdworldstudios.com/a-template-for-creating-noir-stories-in-audio-drama/",
+            "https://bsky.app/profile/aumasson.jp/post/3linbjlgygk2s",
+            "https://www.facebook.com/groups/196207997598777/posts/1811582986061262/",
+            "https://www.hotelchatnoir.com/en/page/data-protection-policy-best-boutique-hotel-in-paris.3917.html",
+            "https://www.youtube.com/watch?v=xycKOW53wMc",
+            "https://www.patheos.com/blogs/schaeffersghost/2013/12/touch-of-depravity/",
+            "https://via.library.depaul.edu/cgi/viewcontent.cgi?article=1027&context=cmnt",
+            "https://www.musixmatch.com/lyrics/Fabregas-Le-Metis-Noir/Code-secret"
+        ],
+        "\"noir code\" \"not for distribution\"": [],
+        "\"noir code\" password": [
+            "https://www.reddit.com/r/IUPUI/comments/1dlcw1h/bypass_code/",
+            "https://www.facebook.com/groups/340125523351190/posts/1633865327310530/",
+            "https://www.reddit.com/r/oculus/comments/1cuyzv7/need_recovery_code/",
+            "https://www.tiktok.com/discover/life-together-cat-noir-code",
+            "https://www.facebook.com/groups/340125523351190/posts/1633734767323586/",
+            "https://www.tiktok.com/discover/cat-noir-code-in-brookhaven",
+            "https://www.hotelchatnoir.com/en/page/data-protection-policy-best-boutique-hotel-in-paris.3917.html",
+            "https://hackmd.io/@VladSemenov/Hkn7u-DNh",
+            "https://www.cafr.ebay.ca/itm/205554397755",
+            "https://www.neoseeker.com/deus-ex-mankind-divided/cheats/ps4/"
+        ]
+    },
+    "imagens": {
+        "site:noircode.com.br filetype:jpg": [],
+        "site:noircode.com.br filetype:png": []
+    }
+}

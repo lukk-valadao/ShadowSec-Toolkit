@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ShadowSec Toolkit - system_checkup.sh
-# Autor: Lukk Shadows
+# Autor: Luciano Valadão
 # Descrição: Verificação de atualizações, limpeza, antivírus, firewall, pacotes órfãos e backups
 
 clear

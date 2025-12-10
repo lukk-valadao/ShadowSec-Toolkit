@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# net_scan.py
+# ShadowSec Toolkit - Módulo scan de rede.
+# Por: Luciano Valadão
+
 import sys
 import nmap
 

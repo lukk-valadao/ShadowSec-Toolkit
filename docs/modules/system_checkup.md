@@ -1,12 +1,12 @@
-# Documentação do Módulo: system\_checkup.sh
+# Documentação do Módulo: syscheckup.py
 
 ## 🛠 Nome do Módulo
 
-`system_checkup.sh`
+`syscheckup.py`
 
 ## 📂 Localização
 
-`shadowsec-toolkit/modules/system_checkup.sh`
+`shadowsec-toolkit/modules/syscheckup.py`
 
 ## 🧠 Função
 
@@ -79,6 +79,6 @@ Este script executa comandos privilegiados. Por isso, é recomendável verificar
 
 ---
 
-Documentação por: **ShadowSec Toolkit Docs**
+Autor: Luciano Valadão
 Data: 2025
 

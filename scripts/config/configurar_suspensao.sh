@@ -2,6 +2,7 @@
 
 # Script para configurar suspensão automática após 15 minutos de inatividade
 # Ideal para ambientes corporativos
+# Ver equivalente em modules/idle_suspend_check.py
 # Por: Shadows + Aeris Satana 🦇
 
 CONF_FILE="/etc/systemd/logind.conf"

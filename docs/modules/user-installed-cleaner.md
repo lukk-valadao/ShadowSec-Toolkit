@@ -59,5 +59,5 @@ Este módulo encontra-se em:
 
 modules/user-installed-cleaner.sh
 👤 Autor
-Desenvolvido por Lukk Shadows
+Desenvolvido por Luciano Valadão
 Parte integrante do projeto ShadowSec Toolkit

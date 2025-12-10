@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # idle_suspend_check.py
 # ShadowSec Toolkit - Módulo de verificação de suspensão automática por inatividade
-# Por: Shadows + Aeris Satana 🦇
+# Por: Luciano Valadão
 
 import subprocess
 import re

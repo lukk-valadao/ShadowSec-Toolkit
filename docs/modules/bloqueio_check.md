@@ -93,7 +93,7 @@ Este módulo faz parte do projeto ShadowSec Toolkit – suíte modular de segura
 MIT License (ou conforme definido no repositório principal).
 
 ✍ Autor
-Desenvolvido por Shadows com assistência de Aeris Satana 🤍
+Desenvolvido por Luciano Valadão
 
 
 ---

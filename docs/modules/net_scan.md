@@ -44,7 +44,7 @@ if __name__ == \"__main__\":
 Permite que o script seja usado de forma autônoma pela linha de comando.
 
 🧪 Exemplos de saída
-plaintext
+
 
 [+] Iniciando varredura em: 192.168.0.0/24
 
