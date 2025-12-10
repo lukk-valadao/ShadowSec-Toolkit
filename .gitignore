@@ -1,3 +1,10 @@
 venv/
 tests/
 modules/logs/
+modules/shadowsec_maldet/testes/
+*.csv
+*.zip
+*.jsonl
+*.json
+modules/shadowsec_maldet/logs/
+
