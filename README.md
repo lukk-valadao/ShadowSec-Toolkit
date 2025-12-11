@@ -168,7 +168,7 @@ bash
 
 Copiar código
 ```
-python3 modules/menu.py
+ //python3 modules/menu.py  **Em desenvolvimento, rodar scripts individualmente.**
 ```
 
 Executar um módulo individual:
