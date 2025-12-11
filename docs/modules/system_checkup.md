@@ -1,12 +1,13 @@
 # 🛡️ SysCheckUp v1.0 - Python Edition
 
+![OS Compatibility](https://img.shields.io/badge/OS-Linux%20|%20Windows-blueviolet.svg)
+
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 
-![OS Compatibility](https://img.shields.io/badge/OS-Linux%20|%20Windows-blueviolet.svg)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 **Ferramenta:** SysCheck-Up | **Versão:** 1.0 (Python Port)
 **Objetivo:** Painel interativo de verificação, limpeza e segurança para sistemas **Debian-based** e **Windows**, utilizando Python para portabilidade.
@@ -74,6 +75,9 @@ elif is_windows():
 
 
 📜 Licença
+
 Distribuído sob licença MIT.
+
 Você pode usar, modificar e distribuir livremente mantendo os créditos.
+
 Contato: Luciano Valadão - ```lukk.valadao@gmail.com```

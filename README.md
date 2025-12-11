@@ -1,12 +1,13 @@
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+# 🛡️ ShadowSec Toolkit
 
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+![OS Compatibility](https://img.shields.io/badge/OS-Linux%20|%20Windows-blueviolet.svg)
+
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-
-
-# 🛡️ ShadowSec Toolkit
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 
 
