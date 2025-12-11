@@ -177,6 +177,8 @@ bash
 
 Copiar código
 ```
+python3 modules/syscheckup/sc.py
+
 python3 modules/net_scan/net_scan.py
 
 python3 modules/shadowsec_maldet/smd.py
