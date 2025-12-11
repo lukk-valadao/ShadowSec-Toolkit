@@ -85,7 +85,7 @@ ShadowSec-Toolkit/
 │   ├── ARCHITECTURE.md
 │   ├── SECURITY_TARGET.md
 │   ├── THREAT_MODEL.md
-│   └── modules/
+│   └── modules/nome_do_modulo.md
 │
 ├── modules/
 │   ├── __init__.py
@@ -342,8 +342,8 @@ Distribuído sob licença MIT.
 
 Você pode usar, modificar e distribuir livremente mantendo os créditos.
 
-```
-Contato: Luciano Valadão - lukk.valadao@gmail.com
-```
+
+Contato: Luciano Valadão - ```lukk.valadao@gmail.com```
+
 ---
 

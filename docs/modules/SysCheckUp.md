@@ -1,8 +1,6 @@
-# 🛡️ SysCheckUp v1.0 - Python Edition
+ # 🛡️ SysCheckUp v1.0 - Python Edition
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-
-![OS Compatibility](https://img.shields.io/badge/OS-Linux%20|%20Windows-blueviolet.svg)
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
@@ -10,7 +8,7 @@
 
 **Ferramenta:** SysCheck-Up | **Versão:** 1.0 (Python Port)
 **Objetivo:** Painel interativo de verificação, limpeza e segurança para sistemas **Debian-based** e **Windows**, utilizando Python para portabilidade.
-**Autor:** Luciano Valadão
+**Autor:** Luciano S Valadão
 
 ---
 
@@ -54,26 +52,24 @@ Para iniciar o painel interativo, siga os passos abaixo no terminal:
 ```bash
 git clone [https://github.com/lukk-valadao/SysCheckUp.git](https://github.com/lukk-valadao/SysCheckUp.git)
 cd SysCheckUp/modules
-```
 (Assumindo que o script se chama sc.py e está na pasta modules)
+
 2. Executar o Script
 Execute o script Python diretamente, utilizando o interpretador python3:
-Bash
-```
-python3 sc.py
-```
 
+Bash
+
+python3 sc.py
 O script iniciará o menu, onde você pode selecionar os módulos a serem executados.
+
 Estrutura dos Módulos
 O projeto usa a função run_cmd e a biblioteca platform para decidir qual comando nativo deve ser executado, o que permite o suporte multiplataforma:
+
 Python
+
 if is_linux():
     run_cmd("sudo apt update")
 elif is_windows():
     run_cmd("choco upgrade all -y")
-
-
 📜 Licença
-Distribuído sob licença MIT.
-Você pode usar, modificar e distribuir livremente mantendo os créditos.
-Contato: Luciano Valadão - ```lukk.valadao@gmail.com```
+Projeto privado. Licença pública não definida no momento.
