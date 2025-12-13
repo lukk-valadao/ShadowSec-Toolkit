@@ -7,5 +7,15 @@ modules/shadowsec_maldet/testes/
 *.zip
 *.jsonl
 *.json
+*.txt
+*.log
 modules/shadowsec_maldet/logs/
+ShadowSec-Toolkit/modules/rootKit_hunter/
+*.csv
+*.zip
+*.jsonl
+*.json
+*.txt
+*.log
+
 

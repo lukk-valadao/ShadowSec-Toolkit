@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ShadowSec Toolkit - Rootkit / Backdoor Scanner (Python Edition)
-# Autor: Shadows + Aeris
+# Autor: Luciano Valadão
 # Versão: 1.0
 #
 # Objetivo:

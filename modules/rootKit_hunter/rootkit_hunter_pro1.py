@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Rootkit Hunter PRO v4.0 — ShadowSec Edition
-By: Aeris Satana
+Rootkit Hunter PRO v1.1 — ShadowSec Edition
+autor: Luciano Valadão
 
 Descrição:
     Scanner avançado de rootkits e anomalias de segurança.

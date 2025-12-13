@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#
+# ShadowSec Toolkit – Rootkit Hunter PRO
+# Autor: Luciano Valadão
+# Versão: 1.0
+#
+# Objetivo:
+# Scanner profissional de rootkits, módulos ocultos,
+# serviços suspeitos, LD_PRELOAD, backdoors, e anomalias de kernel.
+#
 
 import subprocess
 import datetime
@@ -134,7 +143,7 @@ def check_rkhunter_chkrootkit():
 def generate_full_report():
     sections = []
 
-    sections.append("========= ROOTKIT HUNTER PRO v4.0 — ShadowSec Edition =========\n")
+    sections.append("========= ROOTKIT HUNTER PRO v1.0 — ShadowSec Edition =========\n")
     sections.append(audit_root_processes())
     sections.append(audit_ports())
     sections.append(audit_kernel_modules())

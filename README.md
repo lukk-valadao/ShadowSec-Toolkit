@@ -102,6 +102,7 @@ ShadowSec-Toolkit/
 │   ├── permission_check/
 │   ├── rootKit_hunter/
 │   ├── shadowsec_auditor/
+│   ├── shadowsec_net_diag/
 │   ├── shadowsec_maldet/
 │   ├── syscheckup/
 │   └── venv/
@@ -232,6 +233,10 @@ Dork Scanner: buscas automatizadas com dorks personalizadas
 
 
 ShadowSec Auditor: checklist automatizado de segurança do sistema
+
+
+
+ShadowSec Net Diag: diagnóstico de Rede, conflito de ip, para sistemas Debian-based e Windows e macOS
 ```
 
 

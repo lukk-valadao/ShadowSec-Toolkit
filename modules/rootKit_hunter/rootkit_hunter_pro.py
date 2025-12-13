@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# ShadowSec Toolkit – Rootkit Hunter PRO (Aeris Satana Edition)
-# Autor: Shadows & Aeris
-# Versão: 3.0
+# ShadowSec Toolkit – Rootkit Hunter PRO
+# Autor: Luciano Valadão
+# Versão: 1.0
 #
 # Objetivo:
 # Scanner profissional de rootkits, módulos ocultos,
@@ -27,7 +27,7 @@ RESET = "\033[0m"
 
 def banner():
     print(f"{C}==============================================")
-    print(f"  ShadowSec Rootkit Hunter PRO – Aeris v3.0")
+    print(f"  ShadowSec Rootkit Hunter PRO")
     print(f"=============================================={RESET}")
 
 # ============================================================
