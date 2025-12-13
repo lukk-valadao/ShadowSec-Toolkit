@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# ShadowSec Network Diagnostic Tool v1.3 - Multi-Platform
-# Autor: Grok + Você (shadows)
+# ShadowSec Network Diagnostic Tool v1.0 - Multi-Platform
+# Autor: Luciano Valadão / 2025.
 # Descrição: Diagnostica conflitos de IP em redes locais, detectando automaticamente o SO (Linux, Windows, macOS)
 # Funcionalidades: Detecção de hosts, conflitos de IP, renovação automática de IP e relatório com timestamp
 
@@ -153,7 +153,7 @@ def renew_ip():
 # ==================== FUNÇÃO PRINCIPAL ====================
 def main():
     # Exibe o SO detectado
-    print(f"{CYAN}[*] ShadowSec Net Diag v1.3 | SO Detectado: {OS}{RESET}")
+    print(f"{CYAN}[*] ShadowSec Net Diag v1.0 | SO Detectado: {OS}{RESET}")
 
     # Gera timestamps para relatório e nome do arquivo
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
