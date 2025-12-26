@@ -1,21 +1,38 @@
-data_signatures_testes/
+# =========================
+# Ambientes virtuais
+# =========================
 venv/
+.env
+.env.*
+
+# =========================
+# Diretórios de testes e dados temporários
+# =========================
 tests/
+data_signatures_testes/
+
+# =========================
+# Logs e artefatos de execução
+# =========================
 modules/logs/
-modules/shadowsec_maldet/testes/
-*.csv
-*.zip
-*.jsonl
-*.json
-*.txt
-*.log
 modules/shadowsec_maldet/logs/
-ShadowSec-Toolkit/modules/rootKit_hunter/
+
+# =========================
+# Testes específicos
+# =========================
+modules/shadowsec_maldet/testes/
+
+# =========================
+# Módulos arquivados / experimentais
+# =========================
+modules/rootKit_hunter/
+
+# =========================
+# Arquivos gerados / resultados
+# =========================
+*.log
 *.csv
 *.zip
 *.jsonl
 *.json
 *.txt
-*.log
-
-

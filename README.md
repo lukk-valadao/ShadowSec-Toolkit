@@ -1,24 +1,30 @@
 # 🛡️ ShadowSec Toolkit
 
 
-![OS Compatibility](https://img.shields.io/badge/OS-Linux%20|%20Windows-blueviolet.svg)   ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)   ![Build](https://img.shields.io/badge/build-tested%20locally-blue.svg)   ![Status](https://img.shields.io/badge/status-active-success.svg)
+![OS Compatibility](https://img.shields.io/badge/OS-Linux%20|%20Windows-blueviolet.svg)   ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)   ![Build](https://img.shields.io/badge/build-tested%20locally-blue.svg)
 
 ![Security](https://img.shields.io/badge/focus-cybersecurity-red.svg)   ![Threat Model](https://img.shields.io/badge/threat%20model-offensive%20aware-critical.svg)   ![Usage](https://img.shields.io/badge/usage-defensive%20only-important.svg)   ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+---
 
+## ⚠️ Status do Projeto
 
+Este repositório foi **arquivado**.
 
+O desenvolvimento ativo do ShadowSec continua no projeto:
 
+👉 **ShadowSec-Toolkit-Core**
+https://github.com/lukk-valadao/ShadowSec-Toolkit-Core
 
+Motivo:
+- Reestruturação arquitetural
+- Separação entre protótipo e núcleo estável
 
+Este repositório permanece público **apenas para referência histórica e estudo**.
 
-Suíte Modular de Cibersegurança para Hardening, Auditoria e Monitoramento Local
+---
 
-**Autor:** Luciano Valadão (Lukk)
-
-**Projeto:** ShadowSec Offensive & Defensive Tools
-
-
+**Autor:** Luciano Valadão
 
 ---
 

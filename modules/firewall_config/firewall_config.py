@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # ================================================================
-# ShadowSec Toolkit - Firewall Configurator v1.3
-# Autor: Lukk Shadows & Aeris
+# ShadowSec Toolkit - Firewall Configurator
+# Autor: Luciano Valadão
 # Descrição:
 #   Hardening do UFW com backup, reset, configuração interativa e
 #   relatório completo (hash, portas, alterações críticas e auditoria).
@@ -195,7 +195,7 @@ def enable_firewall():
 # Execução principal
 # -------------------------------
 def main():
-    print("🛡️  ShadowSec Firewall Configurator v1.3 🛡️")
+    print("🛡️  ShadowSec Firewall Configurator v1.0 🛡️")
     require_sudo()
     backup_file = backup_rules()
     reset_ufw()
